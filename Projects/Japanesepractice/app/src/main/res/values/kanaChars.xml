@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="a_hiragana">
+        <item>あ</item>
+        <item>い</item>
+        <item>う</item>
+        <item>え</item>
+        <item>お</item>
+    </string-array>
+    <string-array name="k_hiragana">
+        <item>か</item>
+        <item>き</item>
+        <item>く</item>
+        <item>け</item>
+        <item>こ</item>
+    </string-array>
+    <string-array name="s_hiragana">
+        <item>さ</item>
+        <item>し</item>
+        <item>す</item>
+        <item>せ</item>
+        <item>そ</item>
+    </string-array>
+    <string-array name="t_hiragana">
+        <item>た</item>
+        <item>ち</item>
+        <item>つ</item>
+        <item>て</item>
+        <item>と</item>
+    </string-array>
+    <string-array name="n_hiragana">
+        <item>な</item>
+        <item>に</item>
+        <item>ぬ</item>
+        <item>ね</item>
+        <item>の</item>
+    </string-array>
+    <string-array name="h_hiragana">
+        <item>は</item>
+        <item>ひ</item>
+        <item>ふ</item>
+        <item>へ</item>
+        <item>ほ</item>
+    </string-array>
+    <string-array name="m_hiragana">
+        <item>ま</item>
+        <item>み</item>
+        <item>む</item>
+        <item>め</item>
+        <item>も</item>
+    </string-array>
+    <string-array name="y_hiragana">
+        <item>や</item>
+        <item>ゆ</item>
+        <item>よ</item>
+    </string-array>
+    <string-array name="r_hiragana">
+        <item>ら</item>
+        <item>り</item>
+        <item>る</item>
+        <item>れ</item>
+        <item>ろ</item>
+    </string-array>
+    <string-array name="w_hiragana">
+        <item>わ</item>
+        <item>を</item>
+    </string-array>
+    <string-array name="just_n_hiragana">
+        <item>ん</item>
+    </string-array>
+    <string-array name="g_hiragana">
+        <item>が</item>
+        <item>ぎ</item>
+        <item>ぐ</item>
+        <item>げ</item>
+        <item>ご</item>
+    </string-array>
+    <string-array name="z_hiragana">
+        <item>ざ</item>
+        <item>じ</item>
+        <item>ず</item>
+        <item>ぜ</item>
+        <item>ぞ</item>
+    </string-array>
+    <string-array name="d_hiragana">
+        <item>だ</item>
+        <item>ぢ</item>
+        <item>づ</item>
+        <item>で</item>
+        <item>ど</item>
+    </string-array>
+    <string-array name="b_hiragana">
+        <item>ば</item>
+        <item>び</item>
+        <item>ぶ</item>
+        <item>べ</item>
+        <item>ぼ</item>
+    </string-array>
+    <string-array name="p_hiragana">
+        <item>ぱ</item>
+        <item>ぴ</item>
+        <item>ぷ</item>
+        <item>ぺ</item>
+        <item>ぽ</item>
+    </string-array>
+    <string-array name="a_katakana">
+        <item>ア</item>
+        <item>イ</item>
+        <item>ウ</item>
+        <item>エ</item>
+        <item>オ</item>
+    </string-array>
+    <string-array name="k_katakana">
+        <item>カ</item>
+        <item>キ</item>
+        <item>ク</item>
+        <item>ケ</item>
+        <item>コ</item>
+    </string-array>
+    <string-array name="s_katakana">
+        <item>サ</item>
+        <item>シ</item>
+        <item>ス</item>
+        <item>セ</item>
+        <item>ソ</item>
+    </string-array>
+    <string-array name="t_katakana">
+        <item>タ</item>
+        <item>チ</item>
+        <item>ツ</item>
+        <item>テ</item>
+        <item>ト</item>
+    </string-array>
+    <string-array name="n_katakana">
+        <item>ナ</item>
+        <item>ニ</item>
+        <item>ヌ</item>
+        <item>ネ</item>
+        <item>ノ</item>
+    </string-array>
+    <string-array name="h_katakana">
+        <item>ハ</item>
+        <item>ヒ</item>
+        <item>フ</item>
+        <item>ヘ</item>
+        <item>ホ</item>
+    </string-array>
+    <string-array name="m_katakana">
+        <item>マ</item>
+        <item>ミ</item>
+        <item>ム</item>
+        <item>メ</item>
+        <item>モ</item>
+    </string-array>
+    <string-array name="y_katakana">
+        <item>ヤ</item>
+        <item>ユ</item>
+        <item>ヨ</item>
+    </string-array>
+    <string-array name="r_katakana">
+        <item>ラ</item>
+        <item>リ</item>
+        <item>ル</item>
+        <item>レ</item>
+        <item>ロ</item>
+    </string-array>
+    <string-array name="w_katakana">
+        <item>ワ</item>
+        <item>ヲ</item>
+    </string-array>
+    <string-array name="just_n_katakana">
+        <item>ン</item>
+    </string-array>
+    <string-array name="g_katakana">
+        <item>ガ</item>
+        <item>ギ</item>
+        <item>グ</item>
+        <item>ゲ</item>
+        <item>ゴ</item>
+    </string-array>
+    <string-array name="z_katakana">
+        <item>ザ</item>
+        <item>ジ</item>
+        <item>ズ</item>
+        <item>ゼ</item>
+        <item>ゾ</item>
+    </string-array>
+    <string-array name="d_katakana">
+        <item>ダ</item>
+        <item>ヂ</item>
+        <item>ヅ</item>
+        <item>デ</item>
+        <item>ド</item>
+    </string-array>
+    <string-array name="b_katakana">
+        <item>バ</item>
+        <item>ビ</item>
+        <item>ブ</item>
+        <item>ベ</item>
+        <item>ボ</item>
+    </string-array>
+    <string-array name="p_katakana">
+        <item>パ</item>
+        <item>ピ</item>
+        <item>プ</item>
+        <item>ペ</item>
+        <item>ポ</item>
+    </string-array>
+
+
+
+</resources>
