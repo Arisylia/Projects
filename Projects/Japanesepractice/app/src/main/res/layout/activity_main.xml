@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pinapple.japanesepractice.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:background="?attr/colorPrimary"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TabHost
+                android:id="@+id/tabHost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ScrollView
+                            android:id="@+id/hiraganaOptions"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="6dp"
+                                android:layout_marginTop="8dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0">
+
+                                <Switch
+                                    android:id="@+id/aHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="あ　い　う　え　お"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/kHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="か　き　く　け　こ　"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/sHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="さ　し　す　せ　そ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/tHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+
+                                    android:text="た　ち　つ　て　と"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/nHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="な　に　ぬ　ね　の"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/hHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="は　ひ　ふ　へ　ほ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/mHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ま　み　む　め　も"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/yHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="や　　　ゆ　　　よ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/rHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ら　り　る　れ　ろ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/wHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="わ　　　　　　　を"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/just_nHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ん"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/gHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="が　ぎ　ぐ　げ　ご"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/zHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ざ　じ　ず　ぜ　ぞ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/dHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="だ　ぢ　づ　で　ど"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/bHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ば　び　ぶ　べ　ぼ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/pHiragana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ぱ　ぴ　ぷ　ぺ　ぽ"
+                                    android:textSize="22sp" />
+
+
+                            </LinearLayout>
+
+
+                        </ScrollView>
+
+                        <ScrollView
+                            android:id="@+id/katakanaOptions"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="6dp"
+                                android:layout_marginTop="8dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="vertical"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0">
+
+                                <Switch
+                                    android:id="@+id/aKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ア　イ　ウ　エ　オ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/kKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="カ　キ　ク　ケ　コ　"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/sKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="サ　シ　ス　セ　ソ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/tKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+
+                                    android:text="タ　チ　ツ　テ　ト"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/nKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ナ　ニ　ヌ　ネ　ノ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/hKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ハ　ヒ　フ　ヘ　ホ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/mKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="マ　ミ　ム　メ　モ"
+                                    android:textSize="22sp" />
+
+
+                                <Switch
+                                    android:id="@+id/yKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ヤ　　　ユ　　　ヨ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/rKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ラ　リ　ル　レ　ロ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/wKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ワ　　　　　　　ヲ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/just_nKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ン"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/gKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ガ　ギ　グ　ゲ　ゴ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/zKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ザ　ジ　ズ　ゼ　ゾ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/dKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="ダ　ヂ　ヅ　デ　ド"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/bKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="バ　ビ　ブ　ベ　ボ"
+                                    android:textSize="22sp" />
+
+                                <Switch
+                                    android:id="@+id/pKatakana"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="56dp"
+                                    android:text="パ　ピ　プ　ペ　ポ"
+                                    android:textSize="22sp" />
+                                <Button
+                                    android:id="@+id/button"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Button"
+
+                                    tools:layout_editor_absoluteX="82dp"
+                                    tools:layout_editor_absoluteY="298dp" />
+                            </LinearLayout>
+
+
+                        </ScrollView>
+
+                    </FrameLayout>
+                </LinearLayout>
+            </TabHost>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

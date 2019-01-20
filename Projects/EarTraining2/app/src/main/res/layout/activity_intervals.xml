@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pinapple.eartraining.Intervals">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/appCompatImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="repeat"
+        android:scaleType="centerInside"
+        android:src="@drawable/speaker_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/union"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Unison"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/min2"
+        app:layout_constraintEnd_toEndOf="@+id/min2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/min2"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatImageButton" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/octave"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Octave"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/union"
+        app:layout_constraintEnd_toEndOf="@+id/maj2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/maj2"
+        app:layout_constraintTop_toTopOf="@+id/union"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/min2"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Min 2"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/min3"
+        app:layout_constraintEnd_toEndOf="@+id/min3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/min3"
+        app:layout_constraintTop_toBottomOf="@+id/union" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/maj2"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Maj 2"
+        app:layout_constraintBottom_toBottomOf="@+id/min2"
+        app:layout_constraintEnd_toEndOf="@+id/maj3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/maj3"
+        app:layout_constraintTop_toTopOf="@+id/min2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/min3"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:text="Min 3"
+        app:layout_constraintBottom_toTopOf="@+id/tritone"
+        app:layout_constraintEnd_toEndOf="@+id/tritone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tritone"
+        app:layout_constraintTop_toBottomOf="@+id/min2" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/maj3"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Maj 3"
+        app:layout_constraintBottom_toBottomOf="@+id/min3"
+        app:layout_constraintEnd_toEndOf="@+id/p4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/p4"
+        app:layout_constraintTop_toTopOf="@+id/min3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/tritone"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Tritone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/min6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/min6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/p4"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Perfect 4"
+        app:layout_constraintBottom_toTopOf="@+id/p5"
+        app:layout_constraintEnd_toEndOf="@+id/p5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/p5"
+        app:layout_constraintTop_toBottomOf="@+id/maj3" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/p5"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Perfect 5"
+        app:layout_constraintBottom_toTopOf="@+id/maj9"
+        app:layout_constraintEnd_toEndOf="@+id/maj9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/maj9"
+        app:layout_constraintTop_toBottomOf="@+id/p4" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/min6"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Min 6"
+        app:layout_constraintBottom_toBottomOf="@+id/maj9"
+        app:layout_constraintEnd_toEndOf="@+id/min7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/min7"
+        app:layout_constraintTop_toTopOf="@+id/maj9"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/maj6"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Maj 6"
+        app:layout_constraintBottom_toTopOf="@+id/maj7"
+        app:layout_constraintEnd_toEndOf="@+id/maj7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/maj7"
+        app:layout_constraintTop_toBottomOf="@+id/maj9" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/min7"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Min 7"
+        app:layout_constraintBottom_toBottomOf="@+id/maj6"
+        app:layout_constraintEnd_toEndOf="@+id/min9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/min9"
+        app:layout_constraintTop_toTopOf="@+id/maj6"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/maj7"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Maj 7"
+        app:layout_constraintBottom_toTopOf="@+id/maj10"
+        app:layout_constraintEnd_toEndOf="@+id/maj10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/maj10"
+        app:layout_constraintTop_toBottomOf="@+id/maj6" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/min9"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Min 9"
+        app:layout_constraintBottom_toBottomOf="@+id/maj7"
+        app:layout_constraintEnd_toEndOf="@+id/min10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/min10"
+        app:layout_constraintTop_toTopOf="@+id/maj7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/maj9"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Maj 9"
+        app:layout_constraintBottom_toTopOf="@+id/maj6"
+        app:layout_constraintEnd_toEndOf="@+id/maj6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/maj6"
+        app:layout_constraintTop_toBottomOf="@+id/p5" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/min10"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Min 10"
+        app:layout_constraintBottom_toBottomOf="@+id/maj10"
+        app:layout_constraintEnd_toStartOf="@+id/maj10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/maj10"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:onClick="buttonListener"
+        android:id="@+id/maj10"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:text="Maj 10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/min10"
+        app:layout_constraintTop_toBottomOf="@+id/maj7" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a_hiragana_ans">
+        <item>a</item>
+        <item>i</item>
+        <item>u</item>
+        <item>e</item>
+        <item>o</item>
+    </string-array>
+    <string-array name="k_hiragana_ans">
+        <item>ka</item>
+        <item>ki</item>
+        <item>ku</item>
+        <item>ke</item>
+        <item>ko</item>
+    </string-array>
+    <string-array name="s_hiragana_ans">
+        <item>sa</item>
+        <item>shi</item>
+        <item>su</item>
+        <item>se</item>
+        <item>so</item>
+    </string-array>
+    <string-array name="t_hiragana_ans">
+        <item>ta</item>
+        <item>chi</item>
+        <item>tsu</item>
+        <item>te</item>
+        <item>to</item>
+    </string-array>
+    <string-array name="n_hiragana_ans">
+        <item>na</item>
+        <item>ni</item>
+        <item>nu</item>
+        <item>ne</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="h_hiragana_ans">
+        <item>ha</item>
+        <item>hi</item>
+        <item>fu</item>
+        <item>he</item>
+        <item>ho</item>
+    </string-array>
+    <string-array name="m_hiragana_ans">
+        <item>ma</item>
+        <item>mi</item>
+        <item>mu</item>
+        <item>me</item>
+        <item>mo</item>
+    </string-array>
+    <string-array name="y_hiragana_ans">
+        <item>ya</item>
+        <item>yu</item>
+        <item>yo</item>
+    </string-array>
+    <string-array name="r_hiragana_ans">
+        <item>ra</item>
+        <item>ri</item>
+        <item>ru</item>
+        <item>re</item>
+        <item>ro</item>
+    </string-array>
+    <string-array name="w_hiragana_ans">
+        <item>wa</item>
+        <item>wo</item>
+    </string-array>
+    <string-array name="just_n_hiragana_ans">
+        <item>n</item>
+    </string-array>
+    <string-array name="g_hiragana_ans">
+        <item>ga</item>
+        <item>gi</item>
+        <item>gu</item>
+        <item>ge</item>
+        <item>go</item>
+    </string-array>
+    <string-array name="z_hiragana_ans">
+        <item>za</item>
+        <item>ji</item>
+        <item>zu</item>
+        <item>ze</item>
+        <item>zo</item>
+    </string-array>
+    <string-array name="d_hiragana_ans">
+        <item>da</item>
+        <item>ji</item>
+        <item>zu</item>
+        <item>de</item>
+        <item>do</item>
+    </string-array>
+    <string-array name="b_hiragana_ans">
+        <item>ba</item>
+        <item>bi</item>
+        <item>bu</item>
+        <item>be</item>
+        <item>bo</item>
+    </string-array>
+    <string-array name="p_hiragana_ans">
+        <item>pa</item>
+        <item>pi</item>
+        <item>pu</item>
+        <item>pe</item>
+        <item>po</item>
+    </string-array>
+    <string-array name="a_katakana_ans">
+        <item>a</item>
+        <item>i</item>
+        <item>u</item>
+        <item>e</item>
+        <item>o</item>
+    </string-array>
+    <string-array name="k_katakana_ans">
+        <item>ka</item>
+        <item>ki</item>
+        <item>ku</item>
+        <item>ke</item>
+        <item>ko</item>
+    </string-array>
+    <string-array name="s_katakana_ans">
+        <item>sa</item>
+        <item>shi</item>
+        <item>su</item>
+        <item>se</item>
+        <item>so</item>
+    </string-array>
+    <string-array name="t_katakana_ans">
+        <item>ta</item>
+        <item>chi</item>
+        <item>tsu</item>
+        <item>te</item>
+        <item>to</item>
+    </string-array>
+    <string-array name="n_katakana_ans">
+        <item>na</item>
+        <item>ni</item>
+        <item>nu</item>
+        <item>ne</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="h_katakana_ans">
+        <item>ha</item>
+        <item>hi</item>
+        <item>fu</item>
+        <item>he</item>
+        <item>ho</item>
+    </string-array>
+    <string-array name="m_katakana_ans">
+        <item>ma</item>
+        <item>mi</item>
+        <item>mu</item>
+        <item>me</item>
+        <item>mo</item>
+    </string-array>
+    <string-array name="y_katakana_ans">
+        <item>ya</item>
+        <item>yu</item>
+        <item>yo</item>
+    </string-array>
+    <string-array name="r_katakana_ans">
+        <item>ra</item>
+        <item>ri</item>
+        <item>ru</item>
+        <item>re</item>
+        <item>ro</item>
+    </string-array>
+    <string-array name="w_katakana_ans">
+        <item>wa</item>
+        <item>wo</item>
+    </string-array>
+    <string-array name="just_n_katakana_ans">
+        <item>n</item>
+    </string-array>
+    <string-array name="g_katakana_ans">
+        <item>ga</item>
+        <item>gi</item>
+        <item>gu</item>
+        <item>ge</item>
+        <item>go</item>
+    </string-array>
+    <string-array name="z_katakana_ans">
+        <item>za</item>
+        <item>ji</item>
+        <item>zu</item>
+        <item>ze</item>
+        <item>zo</item>
+    </string-array>
+    <string-array name="d_katakana_ans">
+        <item>da</item>
+        <item>ji</item>
+        <item>zu</item>
+        <item>de</item>
+        <item>do</item>
+    </string-array>
+    <string-array name="b_katakana_ans">
+        <item>ba</item>
+        <item>bi</item>
+        <item>bu</item>
+        <item>be</item>
+        <item>bo</item>
+    </string-array>
+    <string-array name="p_katakana_ans">
+        <item>pa</item>
+        <item>pi</item>
+        <item>pu</item>
+        <item>pe</item>
+        <item>po</item>
+    </string-array>
+</resources>
